@@ -1,0 +1,7 @@
+{
+  "docs": {
+    "Getting Started": ["introduction", "research", "covd"],
+    "Moving Forward": ["movingforward", "longterm"],
+    "Solutions": ["whatcanido", "shortterm"]
+  }
+}

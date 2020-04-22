@@ -45,5 +45,5 @@ Some hospitals, [like Davis County Hospital in Iowa, have expanded hours of oper
 Even beyond hiring translators and minority staff, hospitals and clinics should extend cultural competency to other areas of communication to make a patient’s experience more comfortable, as the ability to communicate with healthcare workers is crucial to whether or not a patient chooses to make another appointment. A negative experience could deter patients from receiving the healthcare they need, so it is important to communicate clearly, in another language if needed, medical results, recommendations, bills, appointment times, etc.
 
 ## Further Tools
-You can find some videos and framework for sensitivity training modules for different types of doctors who serve different populations in an [improvement module created by Harvard University](https://implicit.harvard.edu/implicit/).
+You can find some videos and framework for sensitivity training modules for different types of doctors who serve different populations in an [improvement module created by Harvard University](https://implicit.harvard.edu/implicit/). You can find more on tools under the tools tab.
 

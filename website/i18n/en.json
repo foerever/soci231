@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "A SOCI 231 initiative from Rice University researching cultural competency in the American healthcare system.",
     "docs": {
+      "analysis": {
+        "title": "Analysis",
+        "sidebar_label": "Analysis"
+      },
       "covd": {
         "title": "Health Disparities During COVD-19",
         "sidebar_label": "Health Disparities During Pandemic"
@@ -36,6 +40,7 @@
     },
     "links": {
       "Training Module": "Training Module",
+      "Tools": "Tools",
       "About": "About"
     },
     "categories": {

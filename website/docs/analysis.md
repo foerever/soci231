@@ -1,0 +1,13 @@
+---
+id: analysis
+title: Analysis
+sidebar_label: Analysis
+---
+
+While some physicians may not notice the disparities in healthcare through their everyday practice, it is impossible to argue with the facts of the matter. Simply put, there is extensive research that has been able to prove the inequality of our healthcare system. The data shown above is only a small fraction of the information that studies have shown to support the disparities in our system. Without a doubt, the most influential organization in the training of physicians is the Association of American Medical Colleges, and studies from their journal, [Academic Medicine](https://journals.lww.com/academicmedicine/pages/default.aspx), have shown the importance of cultural competence training. In fact, a statement that appears in the abstract of a study by Joseph R. Betancourt — titled [“Cultural Competence and Medical Education: Many Names, Many Perspectives, One Goal”](https://stage-journals.lww.com/academicmedicine/Fulltext/2006/06000/Cultural_Competence_and_Medical_Education__Many.00003.aspx) — says it all: 
+
+“At the end of the day, physicians need a practical set of tools and skills that will enable them to provide quality care to patients everywhere, from anywhere, with whatever differences in background that may exist, in what is likely to be a brief clinical encounter. Call it what you will, the field of cultural competence aims quite simply to assure that health care providers are prepared to provide quality care to diverse populations.”
+
+There is no way around the facts of the disparities in our healthcare system whether in Houston or around the world. Even work from within the Texas Medical Center has corroborated the importance of fair medical treatment, an article by [Cindy George](https://www.tmc.edu/news/author/cgeorge/) titled [“‘Best intentions’ won’t solve implicit bias in health care”](https://www.tmc.edu/news/2019/10/best-intentions-wont-solve-implicit-bias-in-health-care/) explores the topic of implicit bias. While cultural competence and implicit bias are not the same, they do go hand in hand when it comes to fair treatment. If a physician is not culturally competent or maintains implicit bias, there certainly will be disparities in that healthcare system. However, if a physician is culturally competent, they are less likely to exhibit implicit bias because they are educated on the unique backgrounds of their patients. All this information shows that this problem does actually exist and proves that it won't go away without work.
+
+More information on implicit bias can be found on the [Project Implicit website](https://implicit.harvard.edu/implicit/takeatest.html).

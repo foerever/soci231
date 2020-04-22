@@ -4,7 +4,8 @@ title: Background
 sidebar_label: Research
 ---
 
-Individual values, beliefs, and behaviors about health and well-being are shaped by various factors such as race, ethnicity, nationality, language, gender, socioeconomic status, physical and mental ability, sexual orientation, and occupation. Cultural competence in health care is broadly defined as the ability of providers and organizations to understand and integrate these factors, specifically those that relate to culture, into the delivery and structure of the health care system. 
+[Georgetown Health Policy Institute](https://hpi.georgetown.edu/cultural/) has conducted extensive research on inequity in healthcare and have arrived at the follow definition of cultural competency in medicine:
+“Individual values, beliefs, and behaviors about health and well-being are shaped by various factors such as race, ethnicity, nationality, language, gender, socioeconomic status, physical and mental ability, sexual orientation, and occupation. Cultural competence in health care is broadly defined as the ability of providers and organizations to understand and integrate these factors, specifically those that relate to culture, into the delivery and structure of the health care system.”
 
 ## Key Statistics
 - African Americans are 1.7 times more likely to leave without being seen in emergency department visits to White Americans

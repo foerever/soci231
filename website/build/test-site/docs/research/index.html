@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Background · Cultural Competency in Healthcare</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="[Georgetown Health Policy Institute](https://hpi.georgetown.edu/cultural/) has conducted extensive research on inequity in healthcare and have arrived at the follow definition of cultural competency in medicine:"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Background · Cultural Competency in Healthcare"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/"/><meta property="og:description" content="[Georgetown Health Policy Institute](https://hpi.georgetown.edu/cultural/) has conducted extensive research on inequity in healthcare and have arrived at the follow definition of cultural competency in medicine:"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="/css/code-block-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Cultural Competency in Healthcare"/><h2 class="headerTitleWithLogo">Cultural Competency in Healthcare</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/introduction" target="_self">Training Module</a></li><li class=""><a href="/tools" target="_self">Tools</a></li><li class=""><a href="/about" target="_self">About</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Getting Started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/introduction">Introduction</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/research">Research</a></li><li class="navListItem"><a class="navItem" href="/docs/covd">Health Disparities During Pandemic</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Moving Forward<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/analysis">Analysis</a></li><li class="navListItem"><a class="navItem" href="/docs/movingforward">Approaching an Answer</a></li><li class="navListItem"><a class="navItem" href="/docs/longterm">A New Expectation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Solutions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/whatcanido">What Can I Do?</a></li><li class="navListItem"><a class="navItem" href="/docs/shortterm">Strategies for the System</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Background</h1></header><article><div><span><p><a href="https://hpi.georgetown.edu/cultural/">Georgetown Health Policy Institute</a> has conducted extensive research on inequity in healthcare and have arrived at the follow definition of cultural competency in medicine:
+“Individual values, beliefs, and behaviors about health and well-being are shaped by various factors such as race, ethnicity, nationality, language, gender, socioeconomic status, physical and mental ability, sexual orientation, and occupation. Cultural competence in health care is broadly defined as the ability of providers and organizations to understand and integrate these factors, specifically those that relate to culture, into the delivery and structure of the health care system.”</p>
+<h2><a class="anchor" aria-hidden="true" id="key-statistics"></a><a href="#key-statistics" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Key Statistics</h2>
+<ul>
+<li>African Americans are 1.7 times more likely to leave without being seen in emergency department visits to White Americans</li>
+<li>Asians are 1.2 times less likely to have health providers listened carefully, explained things clearly, respected what they had to say, and spent enough time with them compared to White Americans</li>
+<li>Hispanics are 2 times more likely to not have a specific source of ongoing care than Non-Hispanic White Americans</li>
+<li>43% of Hispanics speaking primarily Spanish and 39% of Asians speaking primarily Non-English language report communication problems with their physicians</li>
+<li>15% of African Americans, 13% of Hispanics, 11% of Asian Americans feel they would receive better health care if they were of a different race or ethnicity, compared with 1% of White Americans</li>
+<li>A language other than English is spoken at home in 21 percent of U.S. households.</li>
+<li>One analysis of medical malpractice claims found that 2.5 percent of the reviewed claims were the result of inadequate language services.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="key-sources-and-further-resources"></a><a href="#key-sources-and-further-resources" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Key Sources and Further Resources</h2>
+<ul>
+<li><a href="https://hpi.georgetown.edu/cultural/">Is it important for people with chronic conditions?</a></li>
+<li><a href="https://www.aha.org/ahahret-guides/2013-06-18-becoming-culturally-competent-health-care-organization">Becoming a Culturally Competent Health Care Organization</a></li>
+<li><a href="https://www.governing.com/topics/health-human-services/sl-health-translators.html">Spotty State Laws Prompt U.S. Rules on Health-Care Translators</a>]</li>
+<li><a href="https://www.commonwealthfund.org/sites/default/files/documents/___media_files_publications_fund_report_2002_mar_diverse_communities__common_concerns__assessing_health_care_quality_for_minority_americans_collins_diversecommun_523_pdf.pdf">DIVERSE COMMUNITIES, COMMON CONCERNS: ASSESSING HEALTH CARE QUALITY FOR MINORITY AMERICANS</a></li>
+<li><a href="https://www.ahrq.gov/sites/default/files/wysiwyg/research/findings/nhqrdr/nhqrdr10/minority.pdf">Disparities in Health Care Quality Among Racial and Ethnic Minority Groups</a></li>
+<li><a href="https://www.cnbc.com/2017/06/05/minorities-more-likely-than-whites-to-get-low-value-health-care.html">Minorities more likely than whites to get ‘low-value’ health care</a></li>
+<li><a href="https://www.medicaid.gov/medicaid/financial-management/medicaid-administrative-claiming/translation-and-interpretation-services/index.html">language interpretation services are not classified as mandatory 1905 services</a></li>
+<li><a href="https://www.nejm.org/doi/full/10.1056/NEJMp1609535#t=article">Structural Racism and Supporting Black Lives — The Role of Health Professionals</a></li>
+<li><a href="https://www.statnews.com/2016/04/11/racism-medical-education/">The patient called me ‘colored girl.’ The senior doctor training me said nothing</a></li>
+<li><a href="https://populardemocracy.org/news-and-publications/medicare-all-racial-justice-issue">Medicare for All is a Racial Justice Issue</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK493216/">Cultural Religious Competence In Clinical Practice</a></li>
+<li><a href="ttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2271142/">Genetic Research and Health Disparities</a></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/introduction"><span class="arrow-prev">← </span><span>Introduction</span></a><a class="docs-next button" href="/docs/covd"><span>Health Disparities During Pandemic</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#key-statistics">Key Statistics</a></li><li><a href="#key-sources-and-further-resources">Key Sources and Further Resources</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="Cultural Competency in Healthcare" width="66" height="58"/></a></section></footer></div></body></html>
